@@ -1,0 +1,28 @@
+.cards{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    .fa-trash{
+        color: red;
+    }
+    .fa-pen-to-square{
+        color: blue;
+    }
+    
+    img{
+        width: 300px;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid black;
+
+
+
+    }
+}
